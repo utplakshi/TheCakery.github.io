@@ -1,0 +1,272 @@
+body {
+    overflow-x: hidden;
+}
+
+.carousel slide {
+    height: 200px;
+    position: relative;
+    margin: auto;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.d-block {
+    height: 700px;
+}
+
+.carousel-caption {
+    margin-bottom: 200px;
+}
+
+.carousel-caption h3,
+h2 {
+    font-family: Georgia, serif;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner img {
+    height: 500px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 665px;
+    position: relative;
+    overflow: hidden;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-us {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-right: -20px;
+}
+
+#carouselExampleControls img {
+    height: 250px;
+    width: 250px;
+}
+
+.container .carousel {
+    height: 250px;
+    width: 100%;
+}
+
+.Cakery-footer {
+    background: linear-gradient(to bottom, #378258, #336e70, #01796f);
+}
+
+.Cakery-footer-inner {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.Cakery-footer-logo {
+    display: inline-block;
+}
+
+.Cakery-footer .Cakery-footer-inner .simple-text p {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.simple-text p {
+    font-size: 15px;
+    color: #42435d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.Cakery-footer .Cakery-footer-inner .simple-text a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #f2c21a;
+    font-size: 15px;
+}
+
+.footer-2 {
+    padding-left: 55px;
+}
+
+.webintern_footer_title {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.webintern_footer_title small {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.webintern_footer_title:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #f2c21a;
+    margin-top: 15px;
+}
+
+.Cakery-footer-list {
+    padding: 0;
+    text-decoration: none;
+}
+
+.Cakery-footer-list li {
+    margin-bottom: 17px;
+    list-style: none;
+}
+
+.Cakery-footer-list a {
+    position: relative;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    padding-left: 0;
+    letter-spacing: 0.20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-3 {
+    padding-left: 65px;
+}
+
+.Cakery-footer-inner .simple-text.last {
+    color: #d5d5d5;
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.tt-subscribe {
+    position: relative;
+}
+
+.tt-subscribe input:not([type="submit"]) {
+    width: 100%;
+    height: 46px;
+    background: #fff;
+    font-size: 15px;
+    color: #838486;
+    padding-left: 20px;
+    padding-right: 70px;
+    border: 2px solid #fff;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tt-subscribe-submit {
+    background: #336e70;
+}
+
+.tt-subscribe-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 52px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    color: #2a2a2a;
+    text-align: center;
+    background: #336e70;
+    -moz-border-radius-topright: 3px;
+    border-top-right-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.tt-subscribe-submit i.fa-envelope:before {
+    content: "\f0e0";
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.tt-subscribe-submit input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #614e6e;
+    border: 0;
+}
+
+ul.tt-socail {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.tt-socail li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tt-socail a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    font-size: 17px;
+    line-height: 34px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.webintern_footer_title small {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.tt-copy {
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    background: #614e6e;
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tt-copy-right {
+    text-align: right;
+}
+
+.heading h1:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #f2c21a;
+    margin-top: 15px;
+}

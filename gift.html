@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/product.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!------------------------------------------------------------------------NAVBAR--------------------------------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The Cakery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="items.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Items
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="cake.html">Cakes</a></li>
+                            <li><a class="dropdown-item " href="#">Gifts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------------------------------------Carousel-------------------------------------------------------------------------------------->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video autoplay muted>
+                    <source src="videos/banner4.mp4" type="video/mp4">
+                    <source src="videos/banner4.ogg" type="video/ogg">
+                </video>
+                <div class="carousel-caption">
+                    <form class="d-flex">
+                        <input class="form-control me-6" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success btn-success" style="color: white;" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video style="margin-bottom: 50px;" autoplay muted>
+                    <source src="videos/banner2.mp4" type="video/mp4">
+                    <source src="videos/banner2.ogg" type="video/ogg">
+                </video>
+            </div>
+            <div class="carousel-item">
+                <video autoplay muted>
+                    <source src="videos/banner1.mp4" type="video/mp4">
+                    <source src="videos/banner1.ogg" type="video/ogg">
+                </video>
+                <div class="carousel-caption">
+                    <h2>"I love those who can smile in trouble"</h2>
+                    <h3>-Leonardo da Vinci</h3>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <div class="heading">
+        <h1>Gifts</h1>
+    </div>
+    <br>
+    <!----------------------------------------------------PRODUCTS--------------------------------------------------------------------------->
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="images/chand1.jpg">
+                    </a>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="product-links">
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star-o"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Chandelier</a></h3>
+                    <div class="price"><span>Rs.10000</span> Rs.8000</div>
+                    <a class="add-to-cart" href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="images/chand2.jpg">
+                    </a>
+                    <ul class="product-links">
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Vinatage Chandlier</a></h3>
+                    <div class="price"><span>Rs.50000</span> Rs.47500</div>
+                    <a class="add-to-cart" href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="images/watch2.jpg">
+                    </a>
+                    <ul class="product-links">
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star-o"></li>
+                        <li class="fa fa-star-o"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Men's Watch</a></h3>
+                    <div class="price">Rs.20000</div>
+                    <a class="add-to-cart" href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="images/starlight.jpg">
+                    </a>
+                    <span class="product-discount-label">-50%</span>
+                    <ul class="product-links">
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star-o"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Star Light</a></h3>
+                    <div class="price"><span>Rs.1000</span> Rs.500</div>
+                    <a class="add-to-cart" href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--------------------------------------------PRODUCTS ROW 2-------------------------------------------------------------->
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="images/starlight2.jpg">
+                    </a>
+                    <ul class="product-links">
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star-half-o"></li>
+                        <li class="fa fa-star-o"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Star Light</a></h3>
+                    <div class="price">Rs.2000</div>
+                    <a class="add-to-cart" href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="images/baloon2.jpg">
+                    </a>
+                    <ul class="product-links">
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star-o"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Red and Purple Balloons</a></h3>
+                    <div class="price">Rs.200</div>
+                    <a class="add-to-cart" href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#" class="image">
+                        <img class="pic-1" src="images/flowers2.jpg">
+                    </a>
+                    <ul class="product-links">
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star-half-o"></li>
+                    </ul>
+                    <h3 class="title"><a href="#">Flower Bouquet</a></h3>
+                    <div class="price">Rs.1000</div>
+                    <a class="add-to-cart" href="#">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <footer class="Cakery-footer">
+            <div class="Cakery-footer-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3 ">
+                            <div class="simple-text dark padding-sm">
+                                <img src="images/logo.png">
+                            </div>
+                            <div class="empty-space xs-25 sm-25"></div>
+                        </div>
+                        <div class="col-sm-6 col-md-2 footer-2">
+                            <!-- webintern_footer_title -->
+                            <h4 class="webintern_footer_title h5"><small>Quick Links</small></h4>
+                            <ul class="Cakery-footer-list">
+                                <li><a href="index.html" style="text-decoration:none">Home</a></li>
+                                <li><a href="about.html" style="text-decoration:none">About Us</a></li>
+                                <li><a href="Terms.html" style="text-decoration:none"> Terms &amp; Conditions </a></li>
+                                <li><a href="Privacy.html" style="text-decoration:none"> Privacy Policy </a></li>
+                                <li><a href="contactus.html" style="text-decoration:none">Contact Us</a></li>
+                            </ul>
+                            <div class="empty-space xs-25 sm-25"></div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 footer-3">
+                            <!-- webintern_footer_title -->
+                            <h4 class="webintern_footer_title h5"><small> Our Products </small></h4>
+                            <ul class="Cakery-footer-list">
+                                <li><a href="cake.html" style="text-decoration:none">Cakes</a></li>
+                                <li><a href="gift.html" style="text-decoration:none">Gifts</a></li>
+                                <li><a href="cake.html" style="text-decoration:none">Cupcakes</a></li>
+                                <li><a href="gift.html" style="text-decoration:none">Chandlier</a></li>
+                            </ul>
+                            <div class="empty-space xs-25"></div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 col-sm-6">
+                            <div class="marg-sm-b30"></div>
+                            <!-- webintern_footer_title -->
+                            <h4 class="webintern_footer_title h5"><small>Become a member</small></h4>
+                            <div class="empty-space marg-lg-b20"></div>
+
+                            <div class="empty-space marg-lg-b15"></div>
+                            <!-- TT-SUBSCRIBE -->
+                            <form method="post">
+                                <div class="tt-subscribe">
+                                    <input type="text" required="" placeholder="Enter your email">
+                                    <div class="tt-subscribe-submit">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <input type="submit" value="">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="empty-space marg-lg-b30"></div>
+                            <!-- TT-SOCAIL -->
+                            <ul class="tt-socail">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tt-copy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="tt-copy-left">Copyright © The Cakery 2021. All rights reserved. </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="tt-copy-right">
+                                Created by: Utplakshi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
